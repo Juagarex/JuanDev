@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap');
+html, body{
+     padding: 0px;
+     margin: 0px;
+     font-size: 12px;
+background:linear-gradient(#000000, #000000e5);
+min-height: calc(100vh - 1px);       
+ }
+
+ body{
+      /* background-image: url(/Images/24913.jpg);   */
+
+ }
+ nav{
+     display:flex;  /* pasa de vertical a horizontal*/
+     background-color: #000000;
+     padding: 8px;
+      color: white;
+      justify-content: space-between;
+      font-family: 'Kalam', cursive;
+      font-size: 30px;
+      font-weight: 400;
+      align-items: center;
+      padding-right: 5%;
+      border-bottom: 1px solid #242424;
+   
+ }
+
+ #logo{
+     display: flex;
+     padding: 5px;
+     margin-top: 15px;
+     margin-left:25%;
+     margin-bottom: 10px;
+     height: 50px;
+     transition: border-bottom 1.5s;
+
+     
+    }
+   
+       nav  .brand-image img:hover{
+           border-bottom:1px solid red;
+          
+    }
+
+ 
+
+ nav ul {
+
+     display:block;
+     margin: 0px;
+     text-align: center;
+    
+ }
+
+ nav li {
+    display:flex;
+    margin: 0px;
+    padding: 1px;
+   
+
+}
+li {
+    float: left;
+    
+  }
+  
+ nav  li a {
+     
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom:  1px solid black; 
+    transition: color 1.5s, box-shadow 1s,border-bottom 2s;
+
+   
+  } 
+ 
+
+ nav li a:hover {
+     color: red;
+    border-bottom:  1px solid red ;
+    border-left: 1px;
+    box-shadow:  0px 10px 15px #242424;
+  }
+
+  /* termina el nav bar */
+
+ .main-section{  
+ display: flex;
+ background-image: url(/Images/background_charlemos.jpg);
+ background-size: cover;
+ width: 100%;
+ opacity:0.8;
+ filter: grayscale(10%);
+ min-height: calc(50vh - 1px);   
+ background-attachment: fixed;
+ background-color: white;
+ }
+ .info-charlemos-tittle div{
+     display: flex;
+     font-size: 80px;
+     color:black;
+     text-align: center;
+     width: 50%;
+     font-family: 'Kalam', cursive;
+     font-weight:100;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .info-charlemos-p{
+     font-size: 30px;
+     text-align: justify;
+     margin-left: 10%;
+     background-color: rgba(230, 221, 221, 0.219);
+     padding: 10px;
+     border-radius: 10px;
+     
+     font-family: 'Muli', sans-serif;
+     
+  
+      }
+
+      
+ 
+ .info-charlemos-social div{
+   
+     align-items:center;
+     display:block;
+     color:black;
+     font-size: 30px;
+     font-family: 'Muli', sans-serif;
+     width: 50%;
+     justify-content: center;
+     padding: 0px;
+    }
+
+    .info-charlemos-social  div p {
+        width:450px;
+        margin-right: 50px;
+         align-items: center;
+    }
+
+
+    .info-charlemos-social  div img {
+        width: 40px;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+
+    .info-charlemos-social div p{
+
+        padding:  0px ;
+    }
+
+    
+
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+        background-size: cover;
+        min-height: 800px;
+        background-color:black;
+    }
+
+
+    .formulario-charlemos_texto{
+        color:white;
+        width: 40%;
+        font-size: 35px;
+        font-family: 'Muli', sans-serif;
+        margin:20px ;
+    }
+
+
+    .formulario-charlemos-info{
+        margin: 10px;
+        color:white;
+        font-size: 30px;
+        font-family: 'Muli', sans-serif;
+        padding-left:40px;
+    }
+    .formulario-charlemos-info p  img{
+        width: 40px;
+        padding-left:40px;
+        
+    }
+
+
+.formulario-charlemos-info p  img#telefono{
+        width: 50px;
+        
+    }
+
+    /* formulario */
+    
+    .formulario-correo {
+        display: flex;
+        background-color: white;
+        min-height:500px ;
+        justify-content: space-around;
+    }
+
+   
+
+    .formulario-correo_formato div form{
+        display: flex;
+     padding: 100px;
+       
+
+    }
+
+    .formulario-correo_formato input{
+        width: 160px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+        
+
+    }
+    .formulario-correo_formato input#mensaje{
+        display: flex;
+        width: 100%;
+        height: 250px ;
+        margin: 20px;;
+        padding: 20px;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .formulario-correo_formato input#boton{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    
+
+
+    /*  foooter */
+    .footer{
+        background: #000000;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        color: azure;
+        margin-top: 0px;
+        border-top:1px solid#242424;
+        padding: 20px;
+
+
+    }
+
+
+    .footer-social img{
+        width: 30px ;
+        justify-content: center;
+        filter: contrast(10%);    
+    }
+  
+
+ 
