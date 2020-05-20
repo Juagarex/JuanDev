@@ -90,7 +90,7 @@ li {
 
  .main-section{  
  display: flex;
- background-image: url(/Images/background_charlemos.jpg);
+ background-image: url(../Images/background_charlemos.jpg);
  background-size: cover;
  width: 100%;
  opacity:0.8;
